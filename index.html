@@ -4,12 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/queries.css">
+
+
+     <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
     <title>Frontend Mentor | Profile Card Component</title>
 </head>
 <body>
-    <main>
-        This is profile card.
+    <main class="container p-rel p-center d-grid font-primary bg-blue-100" >
+        <div class="card bg-white rad-150">
+            <div class="img-bg p-rel d-flex rad-100">
+                <img src="./images/image-victor.jpg" alt="Victors-image" class="img p-abs rad-b50 d-block"/>
+            </div>
+            <div class="card__bearer mar-100">
+                <div class="card__bearer-info">
+                    <ul class="detail-list d-flex f-column p-center pad-225" role="list">
+                        <li class="d-flex h-center flush-bseline">
+                            <h1 class="card__bearer-info-name fs-600 lh-h1 clr-blue">Victor Crest</h1>
+                            <span class="pad-l clr-gray fw-bold">26</span>
+                        </li>
+                        <li>
+                            <span class="d-flex h-center clr-gray fw-bold fs-200">London</span>
+                        </li>
+                    </ul> 
+                </div>
+                <div class="card__bearer-stats">
+                    <ul class="stats-list d-flex space-btw pad-200 bdr-top">
+                        <li class="d-flex f-column v-center">
+                            <span class="fw-bold lh-h2 clr-blue">80K</span>
+                            <span class="clr-gray fw-bold fs-100">Followers</span>
+                        </li>
+                        <li class="d-flex f-column v-center">
+                            <span class="fw-bold lh-h2 clr-blue ">803K</span>
+                            <span class="clr-gray fw-bold fs-100">Likes</span>
+                        </li>
+                        <li class="d-flex f-column v-center">
+                            <span class="fw-bold lh-h2 clr-blue">1.4K</span>
+                            <span class="clr-gray fw-bold fs-100">Photos</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </main>
-    
 </body>
 </html>

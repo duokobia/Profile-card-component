@@ -1,0 +1,32 @@
+
+    @media (max-width: 36.25rem) {
+        .container{
+            background-color: var(--clr-blue-100);
+            background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+            background-position: bottom 38vh right 49vw, top 50vh left 26vw;
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+        .img-bg{
+            height: 8.75rem;
+            border-radius: 0.625rem 0.625rem 0 0;
+        }
+        .img{
+            border: 0.375rem solid var(--clr-white);
+            margin: 5.625rem 6.875rem;
+        }
+        .card{
+            background-color: var(--clr-white);
+            border-radius: var(--radius-2);
+            width: clamp(17.43rem, 19.94rem + 2.12vw, 22.25rem);
+        }
+        .detail-list{
+            padding: 1.75rem;
+        }
+        .card__bearer-info-name {
+            color: var(--clr-blue-200);
+        }
+        .stats-list{
+            padding: 1.25rem 2.5rem 0 2.5rem;
+        }
+    }
